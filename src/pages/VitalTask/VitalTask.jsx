@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import dog from '../../assets/dog.svg';
+import Dog from '../../assets/dog.svg';
 import CompletedTask from '../CompletedTask/CompletedTask';
 import Event from '../Event/Event';
 import Grandma from '../../assets/grandma.svg';
@@ -9,7 +9,7 @@ function VitalTask() {
         color: "#F21E1E",
         head: "Walk the dog",
         desc: "Take the dog to the park and bring treats as well.",
-        image: dog,
+        image: Dog,
         priority: "Extreme",
         moderate_color: "#F21E1E",
         status: "Not Started",
@@ -38,7 +38,7 @@ function VitalTask() {
                 </div>
                 <Event color="#F21E1E" head="Walk the dog" desc="Take the dog to the park and bring treats as well." image= {dog} priority="Extreme" moderate_color="#F21E1E" status="Not Started" created="20/06/2023"
                     onClick={() => handleEventClick({
-                        image: dog,
+                        image: Dog,
                         head: "Walk the dog",
                         desc: "Take the dog to the park and bring treats as well.",
                         text: "Take Luffy and Jiro for a leisurely stroll around the neighborhood. Enjoy the fresh air and give them the exercise and mental stimulation they need for a happy and healthy day. Don't forget to bring along squeaky and fluffy for some extra fun along the way!",
