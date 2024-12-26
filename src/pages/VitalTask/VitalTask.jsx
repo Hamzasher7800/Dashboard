@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Dog from '../../assets/dog.svg';
+import Dog from '../../assets/grandma.svg';
 import CompletedTask from '../CompletedTask/CompletedTask';
 import Event from '../Event/Event';
 import Grandma from '../../assets/grandma.svg';
